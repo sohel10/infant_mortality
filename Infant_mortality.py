@@ -10,7 +10,7 @@ import streamlit as st
 from PIL import Image
 
 # Loading the saved model
-with open("gradient_algorithm.pkl", "rb") as file:
+with open("gradient_algorithm.pkl", "wb") as file:
     loaded_model = pickle.load(file)
 
 # Creating a function for Prediction
